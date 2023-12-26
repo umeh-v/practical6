@@ -30,5 +30,5 @@ jobs:
       
 
       - name: Create and run Azure ML job
-        run: az ml job create --file job.yaml --resource-group Test1 --workspace-name test1
+        run: az ml job create --file production/job.yaml --resource-group Test1 --workspace-name test1
 
