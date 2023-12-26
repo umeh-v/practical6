@@ -35,7 +35,7 @@ mlflow.autolog()
 # %% [markdown]
 # ## First load the data
 # The first thing we need to do is load the data we're going to work with and have a quick look at a summary of it.
-# Pandas gives us a function to read CSV files.
+# Pandas gives us a function to read CSV files. how far
 # **You might need update the location of the dataset to point to the correct place you saved it to!**
 # "../" means "back one directory from where we are now"
 # "./" means "from where we are now"
