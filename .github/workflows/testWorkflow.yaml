@@ -19,8 +19,6 @@ jobs:
           creds: '${{ secrets.AZURE_CREDENTIALS }}'
       - name: Test Azure login for getting details
         run: az account show
-      - name: install azure ML cli extention
-        run: az extension  add -n azure-cli-ml
 
       - name: add azure Az extention
         run: az extension add --name ml
