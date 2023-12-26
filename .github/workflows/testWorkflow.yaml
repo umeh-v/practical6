@@ -1,5 +1,5 @@
 name: GitHub Actions Test
-run-name: ${{ github.actor }} workflow test
+# run-name: ${{ github.actor }} workflow test
 on: [push]
 jobs:
   testJob:
@@ -16,6 +16,6 @@ jobs:
       - name: login to Azure
         uses: azure/login@v1
         with:
-          creds: '${{ secrets.AZURE_CREDENTIALS }}
+          creds: '${{ secrets.AZURE_CREDENTIALS }}'
       - name: Test Azure login for getting details
-          run: az account show
+        run: az account show
