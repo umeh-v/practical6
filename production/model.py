@@ -12,7 +12,7 @@
 # 
 # The first thing we need to do is import the packages we need.
 # **You can add the import for pandas yourself - import it as 'pd'**
-# still on our doings
+# still on our doings on this things
 # Once that's done continue you can run the cell with the play button or the run all button pictured in the practical document.
 # Start working your way through the notebook running the cells as you go.
 
